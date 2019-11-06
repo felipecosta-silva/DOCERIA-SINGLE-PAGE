@@ -76,6 +76,7 @@ a{
 }
 section {
 	padding-left: 50px;
+	height: auto;
 }
 
 /*Bem Vindo */
@@ -299,4 +300,41 @@ footer {
 footer p {
 	text-align: center;
 	font-weight: bold;
+}
+@media only screen and (max-width: 1024px){
+
+#sessao-bemvindo .sessao-minibanner {
+    width: 30%;
+    height: 350px;
+}
+
+#sessao-bemvindo .sessao-descricao {
+	left: 35%;
+}
+
+
+#sessao-sobre {
+	margin-top: 5%;
+}
+
+#sessao-sobre #bannersobre {
+    width: calc(100% - (55% + 50px));
+    height: 400px;
+}
+
+#sessao-sobre #descricaosobre {
+	width: calc(100% - 50%);
+}
+
+.doces1-imgs, .doces3-imgs  {
+    width: 30%;
+    margin-bottom: 1%;
+}
+
+
+/*#sessao-contato {
+	padding-left: 11%;
+	padding-right: 12%;
+}*/
+
 }
