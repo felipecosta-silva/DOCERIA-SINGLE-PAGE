@@ -159,3 +159,47 @@ section {
 	left: 25px;
 	width: calc(100% - 400px);
 }
+
+/* sessao galeria */
+
+.banner-galeria {
+	 background-position: center;
+	 background-repeat: cover;
+	 display: inline-block;
+	 height: 200px;
+}
+
+#sessao-doces1, #sessao-doces, #sessao-doces{
+	padding-right: 50px;
+	margin-bottom: 50px;
+}
+
+.doces1-imgs {
+	width: 18.8%;
+	margin: .5% auto;
+}
+
+#img1 {
+	background-image: url(../img/galeria1.jpg);
+	
+}
+
+#img2 {
+	background-image: url(../img/galeria2.jpg);
+	
+}
+
+#img3 {
+	background-image: url(../img/galeria3.jpg);
+	
+}
+
+#img4 {
+	background-image: url(../img/galeria4.jpg);
+	
+}
+
+#img5 {
+	background-image: url(../img/galeria5.jpg);
+	margin-right: 0;
+}
