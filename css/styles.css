@@ -187,22 +187,22 @@ section {
 }
 
 #img2 {
-	background-image: url(../img/galeria2.jpg);
+	background-image: url(../img/galeria2.webp);
 	
 }
 
 #img3 {
-	background-image: url(../img/galeria3.jpg);
+	background-image: url(../img/galeria3.webp);
 	
 }
 
 #img4 {
-	background-image: url(../img/galeria4.jpg);
+	background-image: url(../img/galeria4.webp);
 	
 }
 
 #img5 {
-	background-image: url(../img/galeria5.jpg);
+	background-image: url(../img/galeria5.webp);
 	margin-right: 0;
 }
 
@@ -213,17 +213,17 @@ section {
 }
 
 #img6 {
-	background-image: url(../img/galeria6.jpg);
+	background-image: url(../img/galeria6.webp);
 	margin-left: 0;
 }
 
 #img7 {
-	background-image: url(../img/galeria7.jpg);
+	background-image: url(../img/galeria7.webp);
 	
 }
 
 #img8 {
-	background-image: url(../img/galeria8.jpg);
+	background-image: url(../img/galeria8.webp);
 	margin-right: 0
 }
 
@@ -234,17 +234,17 @@ section {
 }
 
 #img9 {
-	background-image: url(../img/galeria9.jpg);
+	background-image: url(../img/galeria9.webp);
 	margin-left: 0;
 }
 
 #img10 {
-	background-image: url(../img/galeria10.jpg);
+	background-image: url(../img/galeria10.webp);
 	
 }
 
 #img11 {
-	background-image: url(../img/galeria11.jpg);
+	background-image: url(../img/galeria11.webp);
 	
 }
 
@@ -254,6 +254,19 @@ section {
 }
 
 /* Contato */
+
+#sessao-contato h2 {
+	margin-bottom: 20px;
+}
+
+#sessao-contato p {
+	color: #006599;
+	text-align: right;
+	font-weight: bold;
+	padding-right: 130px;
+	margin-bottom: 10px;
+
+}
 
 #form-contato {
 	width:500px;
@@ -288,6 +301,18 @@ section {
 	width: 180px;
 	border-radius: 10px
 }
+
+#sessao-contato #banner-contato {
+	float: right;
+	margin-right: 50px;
+	background-image: url('../img/galeria13.jpg');
+	width: 500px;
+	height: 300px;
+	background-position: center;
+	border-radius: 10px;
+}
+
+
 
 /* Footer */
 
@@ -336,5 +361,22 @@ footer p {
 	padding-left: 11%;
 	padding-right: 12%;
 }*/
+
+}
+
+@media screen and (max-width: 1024px) {
+
+	#sessao-contato #banner-contato {
+	float: left;
+	width: 82%;
+	height: 150px;
+	margin-bottom: 10px;
+	}
+
+	#sessao-contato p {
+	text-align: center;
+	margin-right: 0;
+	float: left;
+	}
 
 }
