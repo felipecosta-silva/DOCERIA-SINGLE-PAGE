@@ -263,7 +263,7 @@ section {
 	color: #006599;
 	text-align: right;
 	font-weight: bold;
-	padding-right: 130px;
+	padding-right: 100px;
 	margin-bottom: 10px;
 
 }
@@ -306,7 +306,7 @@ section {
 	float: right;
 	margin-right: 50px;
 	background-image: url('../img/galeria13.jpg');
-	width: 500px;
+	width: 425px;
 	height: 300px;
 	background-position: center;
 	border-radius: 10px;
